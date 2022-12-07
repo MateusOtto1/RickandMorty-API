@@ -1,0 +1,424 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#corfundo{
+    background-image: url(../imagens/Fundoimg.jpg);
+    height: 100vh;
+}
+
+.fundo{
+    position: absolute;
+    background-color: rgb(33, 190, 46);
+    width: 25vw;
+    height: 70vh;
+    border-radius: 10px 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 4vh;
+    margin-left: 37.5%;
+}
+
+#titulo{
+    color:rgb(32, 175, 63);
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    height: 7vh;
+    padding-top: 2vh;
+}
+
+.escolha{
+    margin-top: 1vh;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000000;
+}
+
+.caixa{
+    text-align: center;
+    width:15vw;
+    height:5vh;
+    font-size: 1.5rem;
+    border-radius: 10px 10px;
+    border: 3px solid #000;
+    margin-left: 4.7vw;
+    margin-top: 1vh;
+}
+
+#resultados{
+    border-radius: 10px 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 2vh;
+    margin-left: 1.4vw;
+    width:22vw;
+    height:41vh;
+    background-color: rgb(34, 209, 49);
+}
+
+#imagem{
+    margin-top: 2vh;
+    margin-left: 4vw;
+    width: 14vw;
+    height: 26vh;
+    border-radius: 15px 15px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.descricao{
+    text-align: center;
+    margin-top: 1.5vh;
+    font-size: 1.7rem;
+}
+
+#b{
+    margin-top: 3vh;
+    width: 100%;
+    height: 5vh;
+}
+
+#volta{
+    margin-left: 3vw;
+}
+
+#proximo{
+    margin-left: 4.5vw;
+}
+
+button{
+    text-align: center;
+    color: rgb(33, 190, 46);
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 10px 10px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-left: 0.85vw;
+    background-color: #000;
+}
+
+#volta:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+#proximo:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+
+@media(max-width:1370px)
+{
+    .fundo{
+        width: 30vw;
+        height: 75vh;
+        margin-top: 5vh;
+        margin-left: 34.5vw;
+    }
+    #titulo{
+        font-size: 1.5rem;
+    }
+    .escolha{
+        font-size: 1.5rem;
+    }
+    .caixa{
+        width:19vw;
+        height:5.5vh;
+        font-size: 1.3rem;
+        margin-left: 5.5vw;
+    }
+    #resultados{
+        margin-left: 2.5vw;
+        width:24vw;
+        height:43vh;
+    }
+    #imagem{
+        margin-left: 4.7vw;
+    }
+    .descricao{
+        font-size: 1.5rem;
+    }
+    #b{
+        margin-top: 4vh;
+        width: 100%;
+        height: 6vh;
+    }
+    #volta{
+        margin-left: 4.5vw;
+    }
+    #proximo{
+        margin-left: 4.5vw;
+    }
+    button{
+        font-size: 1.35rem;
+        font-weight: 600;
+        width: 8vw;
+        height: 7vh;
+    }
+}
+
+@media(max-width:1150px)
+{
+    #imagem{
+        width:17vw;
+        margin-left: 3.3vw;
+    }
+    .descricao{
+        font-size: 1.4rem;
+    }
+    button{
+        font-size: 1.3rem;
+        font-weight: 500;
+        height: 6vh;
+    }
+}
+
+@media(max-width:970px)
+{
+    .fundo{
+        width: 35vw;
+        margin-left: 31.5vw;
+    }
+    .escolha{
+        font-size: 1.4rem;
+    }
+    .caixa{
+        width:23vw;
+        height:5vh;
+        font-size: 1.2rem;
+        margin-left: 5.9vw;
+    }
+    #resultados{
+        margin-left: 3.6vw;
+        width:27vw;
+        height:43vh;
+    }
+    #imagem{
+        margin-left: 3.6vw;
+        width:19vw;
+        height:23vh;
+    }
+    .descricao{
+        font-size: 1.4rem;
+    }
+    #b{
+        margin-top: 4.5vh;
+        height: 6.5vh;
+    }
+    #volta{
+        margin-left: 5.8vw;
+    }
+    button{
+        font-size: 1.2rem;
+        width: 9vw;
+        height: 6.5vh;
+    }
+}
+
+@media(max-width:820px)
+{
+    .fundo{
+        width: 37vw;
+        margin-left: 30.5vw;
+    }
+    .escolha{
+        font-size: 1.3rem;
+    }
+    .caixa{
+        width:24vw;
+        font-size: 1.2rem;
+        margin-left: 6.4vw;
+    }
+    #resultados{
+        width:29vw;
+    }
+    #imagem{
+        margin-left: 4vw;
+        width:20vw;
+    }
+    .descricao{
+        font-size: 1.3rem;
+    }
+    #b{
+        height: 6vh;
+    }
+    button{
+        font-size: 1.1rem;
+        width: 10vw;
+        height: 6vh;
+    }
+}
+
+@media(max-width:770px)
+{
+    .fundo{
+        width: 40vw;
+        margin-left: 29vw;
+    }
+    .escolha{
+        font-size: 1.3rem;
+    }
+    .caixa{
+        width:26vw;
+        margin-left: 6.5vw;
+    }
+    #resultados{
+        margin-left: 4.5vw;
+        width:30vw;
+    }
+    #imagem{
+        width:21vw;
+        height:22vh;
+    }
+    #volta{
+        margin-left: 5.8vw;
+    }
+    button{
+        width: 11vw;
+        height: 6vh;
+    }
+}
+
+@media(max-width:450px)
+{
+    .fundo{
+        width: 55vw;
+        margin-left: 22vw;
+    }
+    .escolha{
+        font-size: 1.2rem;
+    }
+    .caixa{
+        width:40vw;
+        height:4.5vh;
+        font-size: 1.1rem;
+        margin-left: 7vw;
+    }
+    #resultados{
+        margin-left: 4vw;
+        width:45vw;
+        height:45vh;
+    }
+    #imagem{
+        width:35vw;
+    }
+    .descricao{
+        font-size: 1.3rem;
+    }
+    #b{
+        margin-top: 4vh;
+    }
+    #volta{
+        margin-left: 7.5vw;
+    }
+    button{
+        font-size: 1.1rem;
+        width: 17vw;
+    }
+}
+
+@media(max-width:420px)
+{
+    .fundo{
+        width: 75vw;
+        margin-left: 11vw;
+    }
+    .escolha{
+        font-size: 1.4rem;
+    }
+    .caixa{
+        margin-left: 9vw;
+        width:55vw;
+        font-size: 1.2rem;
+    }
+    #resultados{
+        margin-left: 6.5vw;
+        width:60vw;
+    }
+    #imagem{
+        width:45vw;
+        height:20vh;
+        margin-left: 6.5vw;
+    }
+    .descricao{
+        font-size: 1.5rem;
+        margin-top: 2.5vh;
+    }
+    #b{
+        margin-top: 4.5vh;
+    }
+    #volta{
+        margin-left: 11.5vw;
+    }
+    button{
+        font-size: 1.4rem;
+        width: 23vw;
+    }
+}
+
+@media(max-width:390px)
+{
+    #titulo{
+        font-size: 1.3rem;
+    }
+    .fundo{
+        width: 70vw;
+        margin-left: 14vw;
+    }
+    .caixa{
+        width:50vw;
+        margin-left: 9.5vw;
+    }
+    #resultados{
+        width:55vw;
+    }
+    #imagem{
+        width:40vw;
+    }
+    #volta{
+        margin-left: 10vw;
+    }
+    button{
+        font-size: 1.1rem;
+        width: 22vw;
+    }
+}
+
+@media(max-width:320px)
+{
+    #titulo{
+        font-size: 1.1rem;
+    }
+    .fundo{
+        width: 80vw;
+        margin-left: 8vw;
+    }
+    .escolha{
+        font-size: 1.2rem;
+    }
+    .caixa{
+        width:60vw;
+        font-size: 1.1rem;
+    }
+    #resultados{
+        margin-left: 6vw;
+        width:65vw;
+    }
+    #imagem{
+        margin-left: 6.5vw;
+        width:50vw;
+    }
+    .descricao{
+        font-size: 1.2rem;
+        margin-top: 2.5vh;
+    }
+    #b{
+        margin-top: 3.5vh;
+    }
+    #volta{
+        margin-left: 8.5vw;
+    }
+    button{
+        width: 28vw;
+    }
+}
